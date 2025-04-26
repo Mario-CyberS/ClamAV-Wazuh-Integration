@@ -1,4 +1,4 @@
-# ClamAV Wazuh Integration  
+# ClamAV Integration with Wazuh SIEM 
 This project outlines how to integrate **ClamAV antivirus** with the Wazuh SIEM for real-time malware detection by forwarding ClamAV logs into Wazuh for alerting, monitoring, and dashboard visualization.
 
 ---
