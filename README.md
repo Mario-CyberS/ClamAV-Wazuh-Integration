@@ -103,7 +103,10 @@ You can also use the wazuh-logtest tool on the Wazuh server to simulate ClamAV l
 - Wazuh Dashboard
 ClamAV alerts will be visible in the Wazuh dashboard under the "Security Events" or a similar section, often categorized under "Malware Detection."
 
+---
 
+### 👨‍💻 Author
+Mario Tagaras | Florida State University Alum
 
 
 
