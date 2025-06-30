@@ -72,10 +72,12 @@ sudo nano /etc/clamd.d/scan.conf
 Uncomment the line LogSyslog true.
 Wazuh reads /var/log/syslog by default, so no further configuration on the Wazuh side is needed for basic log collection.
 - Also uncomment/update the TCP address and socket configuration as below:
+```bash
  TCPAddr 127.0.0.1
  TCPSocket 3310
  LocalSocket /run/clamd.scan/clamd.sock
  LogFile /var/log/clamd.scan
+```
 
 ### 3. Start clamd deamon service
 ```bash
